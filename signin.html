@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signin">
+        <img class="zarbia" width="111" height="111" src="zarbia.png" alt="zarbia" >
+        <h1>sign in</h1>
+
+        <form action="/submit" method="POST">
+            <div class="div1">
+                <label  for="email">Email</label>
+                <input type="email" id="email" name="email"  required>
+            </div>
+            <div class="div2">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"  required>
+                <div class="forgot-password">
+                    <a href="#">Forgot your password?</a>
+                  </div>
+            </div>
+           
+        
+            <button type="submit">Login</button>
+            <span class="signup-message">Don't have an account? <a href="signup.html">Sign up</a></span>  
+        </form>
+
+    </div>
+</body>
+</html>

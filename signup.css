@@ -1,0 +1,168 @@
+body{
+    background-color: #2A2A2A;
+}
+
+.signup-container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+}
+
+.signup-box1{
+    background-color: #FFF1E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    width: 560px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.logo{
+    margin-top: 20px;
+}
+.h11{
+    color: #40396E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.signup-box2{
+  background-color: #40396E; 
+  height: 600px;
+  width: 560px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  
+}
+
+.h12{
+    color: #FFF1E2;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.signup-box2 form {
+    margin-left: 80px; 
+}
+
+.signup-box2 form label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF1E2;
+}
+.signup-box2 form input {
+    
+    background-color: #FFF1E2;
+    border: none;
+    border-radius: 40px;
+    margin-top: 5px;
+    
+}
+
+.signup-box2 form select {
+    margin-bottom: 5px; 
+    height: 30px;
+    width: 440px;
+    background-color: #FFF1E2;
+    border: none;
+    border-radius: 40px;
+    
+}
+.div0{
+    display: flex;
+    margin-bottom: 10px;
+}
+.ln{
+    margin-left: 50px;
+}
+
+.signup-box2 form .div1,
+.signup-box2 form .div2,
+.signup-box2 form .div3,
+.signup-box2 form .div4 {
+    margin-bottom: 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.signup-box2 form button {
+    margin-top: 40px;
+    margin-left: 120px;
+    background-color: #D94E46; 
+    color: #40396E; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 40px; 
+    cursor: pointer;
+    width: 180px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.signup-box2 form .div1 input, .signup-box2 form .div2 input,.signup-box2 form .div4 input {
+    width: 440px;
+    height: 30px;
+}
+
+.signup-box2 form .div0 input {
+    width: 192px;
+    height: 30px;
+}
+
+.o{
+    display: flex;
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 518px;
+    color: #40396E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.R{
+    display: flex;
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF1E2;
+}
+
+
+
+#google {
+   margin-top: 14px;
+   margin-bottom: 20px;
+}
+
+
+
+
+#google img, #appel img {
+    width: 220px; 
+    height: auto;
+    border-radius: 40px;
+}
+
+
+#google img:hover, #appel img:hover {
+    opacity: 0.9; 
+}
+
+
+
+

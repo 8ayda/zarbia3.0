@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-box1">
+            <img class="logo"  width="111" height="111" src="zarbia.png" alt="zarbia" >
+            <h1 class="h11">sign up to zarbia</h1>
+            <a id="google"  href="your_link_here"><img   src="googleup.png" alt="google" ></a>
+            <a id="appel" href="your_link_here"><img   src="appelup.png" alt="appel" ></a>
+           
+
+
+            
+
+            <div class="o">
+                <h1 >O</h1>
+            </div>
+        </div>
+        <div class="signup-box2">
+            <div class="R">
+                <h1 >R</h1>
+            </div>
+            <h1 class="h12">create account</h1>
+            <form action="/submit" method="POST">
+                <div class="div0">
+                    <div class="fn">
+                        <label  for="fname">first name</label><br>
+                        <input type="text" id="fname" name="fname"  required>
+                    </div>
+                    <div class="ln">
+                        <label  for="lname">last name</label><br>
+                        <input type="text" id="lname" name="lname"  required>
+                    </div>
+                    
+                </div>
+                <div class="div1">
+                    <label  for="email">Email</label>
+                    <input type="email" id="email" name="email"  required>
+                </div>
+                <div class="div2">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required> 
+                </div>
+                
+                <div class="div3">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                    <option value="">Select a country</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="palestine">palestine</option>
+                    <option value="argentina">argentina</option>
+                    <option value="spain">spain</option>
+                    
+                </select>
+                </div>
+
+                <div class="div4">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+            
+                <button type="submit">submit</button>
+                 
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
