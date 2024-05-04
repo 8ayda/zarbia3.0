@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="paiment.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="paiment">
+        <div class="ticket">
+            <img class="warka" width="111" height="111" src="warka.png" alt="warka" >
+        </div>
+        <div class="remplire">
+            <div class="contact">
+                <h1 class="titre">contact</h1>
+                <form action="/submit" method="POST">  
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="email" required> 
+                </form>
+            </div>
+    
+            <div class="delivery">
+                <h1 class="titre">delivery</h1>
+                <form action="/submit" method="POST"> 
+                    <label for="governorates">governorate</label>
+                    <select id="governorates">
+                        <option value="ariana">Ariana</option>
+                        <option value="beja">Béja</option>
+                        <option value="benarous">Ben Arous</option>
+                        <option value="bizerte">Bizerte</option>
+                        <option value="gabes">Gabès</option>
+                        <option value="gafsa">Gafsa</option>
+                        <option value="jendouba">Jendouba</option>
+                        <option value="kairouan">Kairouan</option>
+                        <option value="kasserine">Kasserine</option>
+                        <option value="kebili">Kébili</option>
+                        <option value="kef">Le Kef</option>
+                        <option value="mahdia">Mahdia</option>
+                        <option value="manouba">Manouba</option>
+                        <option value="medenine">Médenine</option>
+                        <option value="monastir">Monastir</option>
+                        <option value="nabeul">Nabeul</option>
+                        <option value="sfax">Sfax</option>
+                        <option value="sidi bouzid">Sidi Bouzid</option>
+                        <option value="siliana">Siliana</option>
+                        <option value="sousse">Sousse</option>
+                        <option value="tataouine">Tataouine</option>
+                        <option value="tozeur">Tozeur</option>
+                        <option value="tunis">Tunis</option>
+                        <option value="zaghouan">Zaghouan</option>
+                    </select>
+                    
+                   <label for="adress">adress</label>
+                   <input type="text" id="adress" name="adress" required>
+    
+                   <label for="full name">full name</label>
+                   <input type="text" id="fname" name="fname" required>
+    
+                   <div class="twins">
+                    <div class="t">
+                     <label for="postal code">postal code</label>
+                     <input type="text" id="postal code" name="postal code" required>
+                    </div>
+                    <div class="t">
+                     <label for="city">city</label>
+                     <input type="text" id="city" name="city" required>
+                    </div>
+                   </div>
+    
+                   <label for="phone">Phone Number:</label>
+                   <input type="tel" id="phone" name="phone"  required>
+
+                   <div class="save">
+                    <input type="checkbox" id="saveCheckbox">
+                   <label for="saveCheckbox">Save this information for next time</label>
+                   </div>
+    
+                   
+                </form>
+            </div>
+    
+            <div class="payment">
+                <h1 class="titre">payment</h1>
+                <h6>All transactions are secure and encrypted</h6>
+                <div class="paypic">
+                    <img class="tijeri" width="50" height="50" src="tijeri.png" alt="tijeri" >
+                    <img class="visa" width="50" height="50" src="visa.png" alt="visa" >
+                    <img class="paypal" width="50" height="50" src="paypal.png" alt="paypal" >
+                    <img class="mastercard" width="50" height="50" src="mastercard.png" alt="mastercard" >
+                    <img class="bitcoin" width="50" height="50" src="bitcoin.png" alt="bitcoin" >
+                </div>
+                <div class="or">
+                    <h2 >OR</h2>
+                </div>
+                
+                <div class="livraison">
+                 <input type="checkbox" id="saveCheckbox">
+                 <label for="saveCheckbox">Cash on Delivery (COD)</label>
+                 <img class="kamioun" width="50" height="50" src="kamioun.png" alt="kamioun" >
+                </div>
+                
+            </div>
+
+
+        
+        <div class="btn">
+            <button type="submit">complete oreder</button>
+        </div>
+
+        </div>
+    </div>
+    <div class="louta">
+        
+        
+    </div>
+</body>
+</html>

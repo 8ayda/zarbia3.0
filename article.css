@@ -1,0 +1,84 @@
+.article_div{
+    background-color: #FFF1E2 ;
+    border-radius: 40px;
+    padding-top: 10px;
+    width: 400px;
+    height: 480px;
+}
+.titre_div{
+    margin-left: 20px;
+    color: #004C97;
+}
+.price_div{
+    margin-left: 30px;
+    color: #D94E46 ;
+}
+.options_div{
+    margin-left: 20px;
+    color: #838383 ;
+}
+#rug-size {
+    margin-left: 30px;
+    padding: 10px;
+    color: #D94E46;
+    font-weight: bold;
+    background-color: #FFB789;
+    border: none;
+    border-radius: 40px;
+    width: 250px; 
+}
+#quantity {
+    margin-left: 30px;
+    padding: 10px;
+    color: #D94E46;
+    font-weight: bold;
+    background-color: #FFB789;
+    border: none;
+    border-radius: 40px;
+    width: 100px; 
+    margin-bottom: 40px;
+}
+.button_container{
+    text-align: center;
+   
+
+}
+.button_container button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+}
+#b_add{
+    background-color: #FFB789; 
+    color: #D94E46;
+    font-weight: 900;
+
+}
+#b_order{
+    color: #FFB789; 
+    background-color: #D94E46; 
+    font-weight: 900;
+    
+
+}
+
+.ccc{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.taswira{
+    height: 480px;
+    width: auto;
+    margin-right: 30px;
+    border-radius: 40px;
+}
+
+#b_order, a{
+    text-decoration: none;
+    
+
+}

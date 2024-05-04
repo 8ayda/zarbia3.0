@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="panier.css">
+    <link rel="stylesheet" href="footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zarbia</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="main.html"><img width="87" height="87" src="icon.png" alt="logo"/>zarbia</a>
+        <form class="search" action="search" method="GET">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">
+                <img width="40" height="40" src="search.png" alt="Search">
+            </button>
+        </form>
+        <div class="words">
+            <a href="page1">shop</a>
+            <a href="page2">about</a>
+            <a href="signup.html">sign up</a>
+        </div>
+        <div class="pics">
+            <a href="panier.html"><img width="50" height="50" src="buy.png" alt="shopping" ></a>
+            <a href="signin.html"><img width="50" height="50" src="myspace.png" alt="my space" ></a>
+            <a href="page6"><img width="50" height="50" src="info.png" alt="info" ></a>
+        </div>
+    </header>
+
+    
+
+
+
+
+
+    <div class="panier">
+        <div class="items"> 
+            <div class="article" id="article1">
+                <div class="img_article">
+                    <img class="img_item" src="z1.jpg" alt="produit1">
+                </div>
+            
+                <div class="info">
+                 <h2 class="nom_produit">Nom du Produit</h2>
+                 <h4 class="desc_preoduit">Description du produit.</h4>
+                 <h5 class="pric_produit">Prix: $10.00</h5>
+                 <input id="quantity" type="number" value="1">
+                </div>
+
+                <div class="prix_totale_article">
+                 <h2>$10.00</h2>
+                </div>
+
+                <div class="button_delete">
+                    <button class="delete"><img height="60px" width="60px" src="t1.png" alt="supprimer"></button>
+                </div>
+            </div>
+
+            <div class="article" id="article2">
+                <div class="img_article">
+                    <img class="img_item" src="q2.jpg" alt="produit1">
+                </div>
+            
+                <div class="info">
+                 <h2 class="nom_produit">Nom du Produit</h2>
+                 <h4 class="desc_preoduit">Description du produit.</h4>
+                 <h5 class="pric_produit">Prix: $10.00</h5>
+                 <input id="quantity" type="number" value="1">
+                </div>
+
+                <div class="prix_totale_article">
+                 <h2>$10.00</h2>
+                </div>
+                <div class="button_delete">
+                    <button class="delete"><img height="60px" width="60px" src="t1.png" alt="supprimer"></button>
+                </div>
+            </div>
+
+            <div class="article" id="article2">
+                <div class="img_article">
+                    <img class="img_item" src="m11.jpg" alt="produit1">
+                </div>
+            
+                <div class="info">
+                 <h2 class="nom_produit">Nom du Produit</h2>
+                 <h4 class="desc_preoduit">Description du produit.</h4>
+                 <h5 class="pric_produit">Prix: $10.00</h5>
+                 <input id="quantity" type="number" value="1">
+                </div>
+
+                <div class="prix_totale_article">
+                 <h2>$10.00</h2>
+                </div>
+                <div class="button_delete">
+                    <button class="delete"><img height="60px" width="60px" src="t1.png" alt="supprimer"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="total">
+            <h5 class="total_prix" >products: $90.99</h5>
+            <h5 class="total_prix">shipping: $9.99</h5>
+            <div class="line"></div>
+            <h1 class="total_total">total: $99.99</h1>
+            <button id="b_order"><a href="payment.html">order now</a></button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="foooter">
+
+         <img class="imagefooter" src="footer.png" alt="home">
+         <div class="opptionsfooter">
+            <div class="social">
+                <a href="#"><img height="50" width="50" src="gmail.png"></a>
+                <a href="#"><img height="50" width="50" src="facebook.png"></a>
+                <a href="#"><img height="50" width="50" src="instagram.png"></a>
+                <a href="#"><img height="50" width="50" src="twitter.png"></a>
+            </div>
+            
+                <div class="pagesfooter">
+                <h1>pages:</h1>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">rugs culture</a></li>
+                    <li><a href="#">cleaning service</a></li>
+                </ul>
+            </div>
+            <div class="helpfooter">
+                <h1>help:</h1>
+                <ul>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">find us</a></li>
+                    <li><a href="#">guide</a></li>
+                    <li><a href="#">informations</a></li>
+                </ul>
+            </div>
+            <div class="languagefooter">
+                <h1>language:</h1>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="es">Spanish</option>
+                    <option value="arb">arabic</option> 
+                </select>
+            </div>
+
+            
+            
+            <div class="zarbiafooter">
+                <img class="logofooter" src="icon.png">
+                <h1>zarbia</h1>
+                <h6>© All rights reserved - 2024</h6>
+            </div>
+            <div class="Privacy">
+                <a href="#">Privacy & Cookie statment</a>
+            </div>
+         </div>
+
+        </div>
+        
+    </footer>
+    
+    
+
+</body>
+</html>

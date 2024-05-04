@@ -1,0 +1,148 @@
+body{
+    background-color: #2A2A2A;
+
+}
+
+.paiment{
+    background-color: #FFF1E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;  
+    margin-top: 250px;
+    
+}
+
+.ticket{
+    margin-top: 20px;
+}
+
+.titre{
+    color: #40396E;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: -15px;
+}
+
+.paiment form label{
+    margin-bottom: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.paiment form{
+    display: flex;
+    flex-direction: column;
+    color: #D94E46;
+    padding-bottom: 20px;
+ 
+}
+
+.paiment form input,
+.paiment form select{
+    background-color: #D94E46;
+    border: none;
+    border-radius: 40px;
+    height: 25px;
+   
+    margin-bottom: 20px;
+}
+.twins{
+    display: flex;
+    justify-content: space-between; 
+ }
+.t{
+    display: flex;
+    flex-direction:column;
+    width: 220px;
+}
+
+.save{
+    color: #838383;
+}
+
+.save label{
+    margin-left: 5px;
+}
+
+.remplire{
+    width: 70%;
+}
+
+h6{
+    margin-top: -20px;
+    color: #838383;
+}
+
+.paypic{
+    background-color: #D94E46;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+}
+
+.or{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: #D94E46;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #40396E;
+    color: #FFF1E2; 
+    border: none; 
+    border-radius: 40px; 
+    cursor: pointer; 
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.livraison{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.kamioun{
+    margin-left: 100px;
+    
+}
+
+.louta{
+    height: 50px;
+    color: #2A2A2A;
+    display: flex;
+    position: relative;
+    margin-top: 1450px;
+}
+
+
+
+
+

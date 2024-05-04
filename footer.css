@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+.imagefooter{
+    margin-bottom: -46px;
+    max-width: 100%;
+    height: auto;
+}
+.opptionsfooter{
+    display: flex;
+    background-color: #004C97;
+    margin-top: 0px;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+   
+    width: 100%;
+    
+}
+
+.social a{
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.pagesfooter{
+    margin-left: 1%;
+    color: #FFF1E2;
+}
+
+.helpfooter,
+.languagefooter{
+    margin-left: 3%;
+    color: #FFF1E2;
+    
+    
+}
+
+.pagesfooter a,
+.helpfooter a{
+    text-decoration: none;
+    color: #FFF1E2; 
+    font-size: 18px;
+    
+}
+
+.pagesfooter a:hover,
+.helpfooter a:hover{
+    color: #D94E46; 
+}
+
+#languageSelect {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 40px;
+    height: 35px;
+    width: 100px;
+    border: 1px solid #FFF1E2;
+}
+
+
+.zarbiafooter{
+    margin-top: 20px;
+    color: #FFF1E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13%;
+}
+
+.Privacy {
+    margin-top: 230px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    
+}
+
+.Privacy a {
+    color: #FFF1E2; 
+    text-decoration: none; 
+}
+
+.Privacy a:hover {
+    text-decoration: underline; 
+}
+
+.foooter{
+    position: relative;
+}
